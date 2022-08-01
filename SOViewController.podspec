@@ -21,4 +21,6 @@ Pod::Spec.new do |s|
   
   # s.resources = "SOViewController/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   
+  s.swift_version = "5.0"
+  
   end
