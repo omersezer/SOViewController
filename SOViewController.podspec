@@ -1,0 +1,24 @@
+Pod::Spec.new do |s|
+
+  s.platform = :ios
+  s.ios.deployment_target = '12.0'
+  s.name = "SOViewContoller"
+  s.summary = "Example summary for SOViewController"
+  s.requires_arc = true
+  
+  s.version = "0.0.2"
+  
+  s.license = { :type => "MIT", :file => "License" }
+  
+  s.author = { "Ömer Sezer" => "oomersezer@gmail.com" }
+  
+  s.homepage = "https://github.com/omersezer/SOViewController"
+  
+  s.source = { :git => "https://github.com/omersezer/SOViewController.git", 
+               :tag => "#{s.version}" }
+  
+  s.source_files = "SOViewController/**/*.{swift}"
+  
+  s.resources = "SOViewController/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  
+  end
