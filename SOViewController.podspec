@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary = "Example summary for SOViewController"
   s.requires_arc = true
   
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   
   s.license = { :type => "MIT", :file => "LICENSE" }
   
