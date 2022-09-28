@@ -16,7 +16,7 @@ class SOViewController {
     
     func createSOViewController(from: UIViewController) {
         let soVC = UIViewController()
-        soVC.view.backgroundColor = .blue
+        soVC.view.backgroundColor = .red
         from.present(from, animated: true)
     }
 }
